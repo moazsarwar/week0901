@@ -19,17 +19,11 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin: 0;
 }
 
-div.card {
+.card {
     display: block;
     margin: 0 auto 0;
     text-align: center;
     max-width: 17rem;
-    opacity: 0.8;
-    pointer: cursor;
-}
-
-div.cards:hover {
-    opacity: 1;
 }
 
 .card-header {
