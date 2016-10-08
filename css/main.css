@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin: 0 auto 0;
     text-align: center;
     max-width: 17rem;
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-top: 2em;
 }
 
 .card-header {
@@ -31,6 +34,16 @@ h1, h2, h3, h4, h5, h6, p, a {
     text-align: center;
     display: block;
     marging: 0 auto 0;
+}
+
+.card:hover {
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
+    transform: rotate(-5deg);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 
 .card-title {
